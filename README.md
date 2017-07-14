@@ -1,7 +1,9 @@
 # command-linux
-** SSH **
 
-** _TUNNEL_ **
+** SSH **
+ssh [_remote_user_]@[_remote_ip_]
+
+** TUNNEL **
 
 ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
 
