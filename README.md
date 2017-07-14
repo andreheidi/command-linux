@@ -12,6 +12,21 @@
   
   ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
   
+**ssh-keygen**
+
+*Remove the RSA KEY. When display the message: "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!", execute the command*
+
+  ssh-keygen -R <IP>
+  
+**du**
+
+*Show the file/folder size*
+
+  du -s -h _*_
+  
+  du -s -h /[_folder_]
+  
+  du -s -h [_file_]
 
 **scp**
 
@@ -22,3 +37,9 @@
   update-alternatives --install /usr/bin/[_command_name_] [_command_name_] [_path_]/bin/[some command] 100
   
   update-alternatives --display [_command_name_]
+
+**List file with filter**
+
+ls -la |grep [PARAM]\ [PARAM]
+
+ex.: _ls -la |grep Feb\ 21_
