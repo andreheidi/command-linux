@@ -16,7 +16,7 @@
 
 *Remove the RSA KEY. When display the message: "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!", execute the command*
 
-  ssh-keygen -R <IP>
+  ssh-keygen -R [_IP_]
   
 **du**
 
