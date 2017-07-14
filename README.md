@@ -1,6 +1,16 @@
 # command-linux
+** SSH **
 
-**Transfere file to other computer or server**
+** _TUNNEL_ **
 
-  scp -P [ PORT ] [ FILE ] user@[ IP ]:[remote path]
+ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
+
+** SCP **  
+
+scp -P [ _port_ ] [ _file_ ] user@[ IP ]:[remote path]  
   
+** update-alternatives **
+
+  update-alternatives --install /usr/bin/[_command_name_] [_command_name_] [_path_]/bin/[some command] 100
+  
+  update-alternatives --display [_command_name_]
