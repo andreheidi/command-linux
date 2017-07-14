@@ -1,4 +1,4 @@
-# command-linux
+# linxu command
 
 **ssh**
 
