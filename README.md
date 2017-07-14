@@ -4,9 +4,14 @@
 
   ssh [_remote_user_]@[_remote_ip_]
 
-**tunnel command**
+**tunnel**
 
   ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
+
+  *with more connection*
+  
+  ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
+  
 
 **scp**
 
