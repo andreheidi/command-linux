@@ -43,3 +43,7 @@
 ls -la |grep [PARAM]\ [PARAM]
 
 ex.: _ls -la |grep Feb\ 21_
+
+**Clear RAM Memory Cache, Buffer and Swap Space**
+
+https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
