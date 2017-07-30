@@ -47,3 +47,15 @@ ex.: _ls -la |grep Feb\ 21_
 **Clear RAM Memory Cache, Buffer and Swap Space**
 
 https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
+
+1. Clear PageCache only.
+
+  **# sync; echo 1 > /proc/sys/vm/drop_caches**
+  
+2. Clear dentries and inodes.
+
+  **# sync; echo 2 > /proc/sys/vm/drop_caches**
+  
+3. Clear PageCache, dentries and inodes.
+
+  **# sync; echo 3 > /proc/sys/vm/drop_caches**
