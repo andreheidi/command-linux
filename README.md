@@ -37,6 +37,8 @@
   update-alternatives --install /usr/bin/[_command_name_] [_command_name_] [_path_]/bin/[some command] 100
   
   update-alternatives --display [_command_name_]
+  
+  update-alternatives --config [_comand_name_]
 
 **List file with filter**
 
