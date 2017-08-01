@@ -6,11 +6,11 @@
 
 **tunnel**
 
-  ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
+  ssh -p [_port_number_] -L [_local_server_port_]:[_local_server_ip_]:[_local_server_port_] [_remote_user_]@[_remote_ip_]
 
   *with more connection*
   
-  ssh -p [_port_number_] -L [_server_port_]:[_server_ip_]:[_server_port_] -L [_server_port_]:[_server_ip_]:[_server_port_] [_remote_user_]@[_remote_ip_]
+  ssh -p [_port_number_] -L [_local_server_port_]:[_local_server_ip_]:[_local_server_port_] -L [_local_server_port_]:[_local_server_ip_]:[_local_server_port_] [_remote_user_]@[_remote_ip_]
   
 **ssh-keygen**
 
