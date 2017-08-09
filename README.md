@@ -6,8 +6,8 @@
 * [DU](#du)
 * [SCP](#scp)
 * [UPDATE-ALTERNATIVES](#update-alternatives)
-* [LS -LA WITH FILTER](#List file with filter)
-* [Clear RAM Memory Cache, Buffer and Swap Space](#Clear RAM Memory Cache, Buffer and Swap Space)
+* [LS](#ls)
+* [Clear RAM Memory Cache, Buffer and Swap Space](#Clear-RAM-Memory-Cache,-Buffer-and-Swap-Space)
 * [CRONTAB](#Crontab)
 
 
@@ -51,7 +51,7 @@
   
   update-alternatives --config [_comand_name_]
 
-## List file with filter
+## ls
 
 ls -la |grep [PARAM]\ [PARAM]
 
