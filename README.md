@@ -7,8 +7,8 @@
 * [SCP](#scp)
 * [UPDATE-ALTERNATIVES](#update-alternatives)
 * [LS](#ls)
-* [Clear RAM Memory Cache, Buffer and Swap Space](#Clear-RAM-Memory-Cache,-Buffer-and-Swap-Space)
-* [CRONTAB](#Crontab)
+* [Clear RAM Memory Cache, Buffer and Swap Space](#clear-ram-memory-cache-buffer-and-swap-space)
+* [CRONTAB](#crontab)
 
 
 ## ssh
