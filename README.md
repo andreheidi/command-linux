@@ -1,10 +1,21 @@
 # linux command
 
-**ssh**
+* [SSH](#ssh)
+* [TUNNELS](#tunnels)
+* [SSH-KEYGEN](#ssh-keygen)
+* [DU](#du)
+* [SCP](#scp)
+* [UPDATE-ALTERNATIVES](#update-alternatives)
+* [LS -LA WITH FILTER](#List-file-with-filter)
+* [Clear RAM Memory Cache, Buffer and Swap Space](#Clear-RAM-Memory-Cache-Buffer-and-Swap-Space)
+* [CRONTAB](#Crontab)
+
+
+## ssh
 
   ssh [_remote_user_]@[_remote_ip_]
 
-**tunnel**
+## tunnels
 
   ssh -p [_port_number_] -L [_local_server_port_]:[_local_server_ip_]:[_local_server_port_] [_remote_user_]@[_remote_ip_]
 
@@ -12,13 +23,13 @@
   
   ssh -p [_port_number_] -L [_local_server_port_]:[_local_server_ip_]:[_local_server_port_] -L [_local_server_port_]:[_local_server_ip_]:[_local_server_port_] [_remote_user_]@[_remote_ip_]
   
-**ssh-keygen**
+## ssh-keygen
 
 *Remove the RSA KEY. When display the message: "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!", execute the command*
 
   ssh-keygen -R [_IP_]
   
-**du**
+## du
 
 *Show the file/folder size*
 
@@ -28,11 +39,11 @@
   
   du -s -h [_file_]
 
-**scp**
+## scp
 
   scp -P [ _port_ ] [_file_name_] [_user_]@[ _IP_ ]:[_remote path_]
   
-**update-alternatives**
+## update-alternatives
 
   update-alternatives --install /usr/bin/[_command_name_] [_command_name_] [_path_]/bin/[some command] 100
   
@@ -40,13 +51,13 @@
   
   update-alternatives --config [_comand_name_]
 
-**List file with filter**
+## List file with filter
 
 ls -la |grep [PARAM]\ [PARAM]
 
 ex.: _ls -la |grep Feb\ 21_
 
-**Clear RAM Memory Cache, Buffer and Swap Space**
+## Clear RAM Memory Cache Buffer and Swap Space
 
 https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
 
@@ -62,7 +73,7 @@ https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
 
   **# sync; echo 3 > /proc/sys/vm/drop_caches**
   
-**Crontab**
+## Crontab
 
 Edit crontab
 
