@@ -63,15 +63,15 @@ https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
 
 1. Clear PageCache only.
 
-  **#sync; echo 1 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a**
+  **#echo 1 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a**
   
 2. Clear dentries and inodes.
 
-  **#sync; echo 2 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a**
+  **#echo 2 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a**
   
 3. Clear PageCache, dentries and inodes.
 
-  **#sync; echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a**
+  **#echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a**
   
 ## Crontab
 
