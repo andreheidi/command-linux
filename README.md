@@ -43,6 +43,10 @@
 
   scp -P [ _port_ ] [_file_name_] [_user_]@[ _IP_ ]:[_remote path_]
   
+  _To copy a directory add param **-r**_:
+  
+  scp **-r** -P [ _port_ ] [_file_name_] [_user_]@[ _IP_ ]:[_remote path_]
+  
 ## update-alternatives
 
   update-alternatives --install /usr/bin/[_command_name_] [_command_name_] [_path_]/bin/[some command] 100
